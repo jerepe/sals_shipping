@@ -11,7 +11,6 @@ Shipping choice: """))
 
 
 # Ground shipping cost generation:
-
 if shipping_method == 1 and weight <= 2:
     cost_ground = (weight * 1.5) + 20
 if shipping_method == 1 and weight > 2 and weight <= 6:
@@ -25,7 +24,6 @@ else:
 cost_premium = 125.00
 
 # Drone shipping cost generation:
-
 if shipping_method == 3 and weight <= 2:    
     cost_drone = (weight * 4.50)
 elif shipping_method == 3 and weight > 2 and weight <= 6:
@@ -36,7 +34,6 @@ else:
     cost_drone = (weight * 14.25)
 
 # total cost printing using user choice of delivery:
-
 if shipping_method == 1:
     print("Total cost is: $" + str(cost_ground))
     print("Note: Premium Ground Shipping costs $" + str(cost_premium))
