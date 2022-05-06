@@ -1,7 +1,5 @@
-#variables:
-
+# Defining main variables:
 weight = float(input("Please enter the weight: "))
-
 shipping_method = int(input("""
 Which shipping method do you want to chose? (Type in the number only)
 
