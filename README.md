@@ -5,8 +5,7 @@
 
 ### How do i use it ?
 > Enter the weight of your package(s).
-> Chose your shipping method
-> Total cost will be displayed.
+> Choose your shipping method, and total cost will be displayed.
 
 ### Why ?
 > Codecademy project to which i added user inputs.
